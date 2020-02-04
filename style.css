@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+    height: 30vh;
+    background-color: rgb(216, 66, 29);
+    padding: 1em 0 ;
+    position: relative;
+    width: 100%;
+}
+
+.grid-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main {
+    height: calc(100vh - 20vh);
+    width: 100%;
+}
+.btn {
+   text-align: center;
+   border: 6px solid white;
+   border-radius: 2em;
+   margin: 0.5em;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -375px;
+    width: 15em;
+    letter-spacing: -1px;
+    z-index: 11;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+}
+span {
+    padding: 10px;
+}
+
+.logo {
+   font-size: 30px;
+  
+}
+.one {
+background-color: rgb(209, 37, 37);
+}
+.two {
+    background-color: rgb(160, 49, 49);
+}
+
+li{
+    padding-top: 1em;
+    color: white;
+    font-size: 26px;
+    font-weight: 800;
+    list-style: none;
+    text-align: center;
+    margin-right: 1em;
+    
+}
+li > p {
+    font-weight: 100;
+    padding-top: 0.6em;
+    font-family: serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.grid-columns {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.relative {
+    position: absolute;
+    right: 10em;
+}
+.flex {
+    display: flex;
+}
+.flex > div {
+    margin: 2em 0 ;
+}
+.padding {
+padding:10em 5em;
+}
+.font-50 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.paragraph {
+    line-height: 1.6;
+    padding-top: 1rem;
+}
+.profile {
+    padding-bottom: 2rem;
+    font-weight: 800;
+}
+.featured-articles {
+    clear: both;
+    padding-top: 1em;
+    margin: 1em 0;
+    padding-left: 0;
+    line-height: 1.8;
+}
+ul {
+    padding: 0;
+    margin: 1em 0;
+    max-width: 100%;
+}
+.article-tag {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: .75em;
+    display: inline-block;
+    white-space: nowrap;
+}
+.block {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 5px;
+    margin: .625em 0;
+
+    background-position: left top 70%;
+    background-size: 1.25em auto;
+    background-repeat: no-repeat;
+}
+.avatar {
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    
+}
+.profile {
+}
